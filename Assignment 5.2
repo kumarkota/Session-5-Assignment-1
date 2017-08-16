@@ -1,0 +1,25 @@
+package Assign.test
+
+class Assign52{
+  def fib ()
+  {
+    var N1= 0;
+    var N2=1;
+    var N3= 0;
+    val count=10;
+    for(i<-2 to 10)
+    {
+      N3=N1+N2;
+      println(N3);
+      N1=N2;
+      N2=N3;
+    }
+  }  
+}
+object Assign2{
+def main(args:Array[String]){
+    val GCDVal= new Assign52();
+    GCDVal.fib();    
+    //println(GCDVal.gcdval(25, 15))
+ }
+}
