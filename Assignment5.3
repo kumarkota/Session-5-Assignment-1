@@ -1,0 +1,24 @@
+package Assign.test
+
+class Assign53 {
+  def SqareRoot(n:Int):Int={
+    var X=n;
+    var Y= 1;
+    while(X>Y)
+    {
+      X=(X+Y)/2;
+      Y=n;
+    }
+    return X;
+  }
+}
+object Assign3{
+def main(args:Array[String]){
+    var N=49;
+    val GCDVal= new Assign53();
+    var value= GCDVal.SqareRoot(N);
+    println(value);
+    //GCDVal.fib();    
+    //println(GCDVal.gcdval(25, 15))
+ }
+}
